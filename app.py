@@ -12,7 +12,7 @@ def index():
         css_content = css_file.read()
 
 
-    return render_template('dashboard.html', html_content=html_content, css_content=css_content)
+    return render_template('provaDevOp.html', html_content=html_content, css_content=css_content)
 
 if __name__ == '__main__':
     app.run(debug=True)
