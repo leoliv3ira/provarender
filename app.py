@@ -8,7 +8,7 @@ def index():
     with open('provaDevOps.html', 'r') as html_file:
         html_content = html_file.read()
 
-    with open('stylesDevOps.css', 'r') as css_file:
+    with open('styleDevOps.css', 'r') as css_file:
         css_content = css_file.read()
 
 
